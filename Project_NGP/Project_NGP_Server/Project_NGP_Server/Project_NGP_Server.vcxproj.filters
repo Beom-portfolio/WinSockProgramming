@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{663d06f9-ac42-454d-a1b4-2e62db4d2d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="99.Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99.Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="98.Header">
+      <UniqueIdentifier>{83fae8eb-86d0-40a0-82cd-950d5fec2e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainServer">
+      <UniqueIdentifier>{3f947a1c-4f47-4eb1-b63d-1125198c7c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{7d0ff0be-ed43-400b-9c2e-6f6cdfd29407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object">
+      <UniqueIdentifier>{9cf2d84b-ef88-4556-acbc-a3588864ff16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Monster">
+      <UniqueIdentifier>{8a034549-11f7-480b-af99-c8de822a0bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Monster\BlueSnail">
+      <UniqueIdentifier>{ee3cfc46-2833-47ff-aae3-54cdbdbb656c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Monster\Slime">
+      <UniqueIdentifier>{c96bebdd-adf4-46bd-a95b-1ad53883ecd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Monster\BlueMushroom">
+      <UniqueIdentifier>{b2452a46-f4dd-4855-b6b5-ec3859589216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\Monster\GreenMushroom">
+      <UniqueIdentifier>{17b44cb8-e885-4677-8b5f-3cc2d5a9afe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\MainScene">
+      <UniqueIdentifier>{285ece82-f3e9-4b32-8f3a-97b45a3e6d81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Project_NGP_Server.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainServer.cpp">
+      <Filter>00.MainServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>01.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>02.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>02.Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueSnail.cpp">
+      <Filter>02.Object\Monster\BlueSnail</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawn.cpp">
+      <Filter>02.Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene_1.cpp">
+      <Filter>01.Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>02.Object\Monster\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueMushroom.cpp">
+      <Filter>02.Object\Monster\BlueMushroom</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenMushroom.cpp">
+      <Filter>02.Object\Monster\GreenMushroom</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene_2.cpp">
+      <Filter>01.Scene\MainScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainServer.h">
+      <Filter>00.MainServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>02.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>02.Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueSnail.h">
+      <Filter>02.Object\Monster\BlueSnail</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawn.h">
+      <Filter>02.Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene_1.h">
+      <Filter>01.Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>02.Object\Monster\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueMushroom.h">
+      <Filter>02.Object\Monster\BlueMushroom</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenMushroom.h">
+      <Filter>02.Object\Monster\GreenMushroom</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene_2.h">
+      <Filter>01.Scene\MainScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
